@@ -33,6 +33,7 @@ if (poem > 0) {
     loading.className = 'd-flex align-items-center flex-column'
     loading.innerHTML = `<div class="spinner-border text-white" role="status"><span class="visually-hidden"></span></div>`
     let loading_text = document.createElement('div')
+    loading_text.id = 'loading-text'
     loading_text.className = 'text-white my-2'
     loading_text.textContent = 'Loading your poem!'
     loading.appendChild(loading_text)
