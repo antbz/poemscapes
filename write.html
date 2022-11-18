@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>poemscapes</title>
+  <title>poemscapes - write</title>
   <link rel="icon" type="image/x-icon" href="favicon.png">
 
 
@@ -20,10 +20,18 @@
 
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="generate_p5.js"></script>
+  <script src="write.js" defer></script>
 </head>
 
 <body>
   <script src="navbar.js"></script>
+
+  <div class="d-flex flex-column flex-sm-row" id="input_group">
+    <textarea id="poem_input" rows="10" class="w-100"></textarea>
+    <button type="button" class="btn btn-secondary" id="poem_view" disabled>
+      View
+    </button>
+  </div>
 
   <div class="visually-hidden" id="title"></div>
 
@@ -31,12 +39,9 @@
 
   <script src="libraries/prism.js" id="prism"></script>
 
-  <button type="button" class="btn btn-secondary" id="scroll">
+  <button type="button" class="btn btn-secondary visually-hidden" id="scroll">
     <a class="nav-link" href="#sketch">Scroll down!</a>
   </button>
-
-  <script src="poemscapes.js">
-  </script>
 </body>
 
 </html>

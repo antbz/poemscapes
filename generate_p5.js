@@ -48,3 +48,7 @@ function get_p5js(sketch) {
 function get_p5js_str(sketch_str) {
     return get_frame(`<script>${sketch_str}</script>`)
 }
+
+function get_sketch_from_comment(comment) {
+    return `function preload() {\n\tattentionEveryone();\n}\nfunction setup() {\n\tletThePoetryBegin();\n}\nfunction draw() {\n${comment}\n\tTHE_END();\n}`
+}
