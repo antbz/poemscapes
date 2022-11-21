@@ -5,10 +5,10 @@ function setup() {
 	letThePoetryBegin();
 }
 function draw() {
-	/*Bush alone, hollylike but succulent leaf; nothing*/
-	/*Were they really my end? In the */TREES();/* I turned to my */RAIN();/*.*/
-	/*Harsh words are spoken, but they’re not the ones that make you turn.*/
-	/*random. This must have been way BC. Or is it 1944. Surely in 2044 we shall b.*/
+	/*A */FLOWER();/* from its cerulean wall,*/
+	/*The doe turns in her frame above the stove,*/
+	/*The kite sticks of the Southern Cross,*/
+	/*The twilight of the */TREES();/* and rocks.*/
 
 	THE_END();
 }

@@ -5,10 +5,10 @@ function setup() {
 	letThePoetryBegin();
 }
 function draw() {
-	/*Bush alone, hollylike but succulent leaf; nothing*/
-	/*Were they really my end? In the */DARKNESS();/* I turned to my */LOVE();/*.*/
-	/*Harsh words are spoken, but they’re not the ones that make you turn.*/
-	/*random. This must have been way BC. Or is it 1944. Surely in 2044 we shall b.*/
+	/*October */CLOUDS();/* like these this afternoon often before and,*/
+	/*These flocks of minutes, whispering till the timelessness in us is wrung dry and we,*/
+	/*Followed the */LEAVES();/* of many falls, have I spent time with,*/
+	/*Given, how many will we trade in for this — it comes in bushels, grams, inches, notes.*/
 
 	THE_END();
 }

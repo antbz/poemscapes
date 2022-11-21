@@ -5,10 +5,10 @@ function setup() {
 	letThePoetryBegin();
 }
 function draw() {
-	/*And the */BIRDS();/* returning here,*/
-	/*The */SUN();/* loves them,*/
-	/*To look up, I hope you see the */DARK();/* sky as oceanic ,*/
-	/*Vacancy. It’s the sky, yes, but also this thinking. As from the start, again, here I am.*/
+	/*The */SUN();/* */LOVES();/* them,*/
+	/*For I felt assured she thought me,*/
+	/*I wonder if I know enough to know what it’s really like,*/
+	/*I’d believe in a God who can learn.*/
 
 	THE_END();
 }

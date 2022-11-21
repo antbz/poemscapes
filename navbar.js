@@ -1,3 +1,5 @@
+const NUM_POEMS = 10;
+
 const nav = document.createElement('nav')
 nav.className = "navbar navbar-expand-sm navbar-dark bg-dark"
 nav.innerHTML = `<div class="container-fluid">
@@ -30,7 +32,7 @@ document.body.appendChild(nav)
 
 const poem_list = document.getElementById('our_poems_list')
 
-for (let i = 1; i <= 5; i++) {
+for (let i = 1; i <= NUM_POEMS; i++) {
     const item = document.createElement('li')
     item.innerHTML = `<a class="dropdown-item" href="index.html?poem=${i}" id="poem_${i}">Poem ${i}</a>`
     poem_list.appendChild(item)

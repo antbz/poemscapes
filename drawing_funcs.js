@@ -123,8 +123,16 @@ function FLOWER() {
 	isFlowers = true;
 }
 
+function FLOWERS() {
+	FLOWER();
+}
+
 function LOVE() {
 	isLove = true;
+}
+
+function LOVES() {
+	LOVE();
 }
 
 function STARS() {
@@ -137,12 +145,13 @@ function NIGHT() {
 	ridge_bottom_color = "#181d21";
 }
 
-function TREES() {
-	isTree = true;
-}
 
 function TREE() {
 	isTree = true;
+}
+
+function TREES() {
+	TREE();
 }
 
 function FOREST() {
@@ -209,6 +218,10 @@ function SUNSET() {
 	ridge_bottom_color = "#936bc2";
 }
 
+function SUNSETS() {
+	SUNSET();
+}
+
 function RAINING() {
 	sky_top_color = "#7E9CB9";
 	sky_bottom_color = "#BCCEDD";
@@ -221,16 +234,15 @@ function RAIN() {
 	RAINING()
 }
 
-function FIELDS() {
-	ridge_top_color = "#66C16C";
-	ridge_bottom_color = "#219e36";
-	ridge_zoom = 0.001;
-}
 
 function FIELD() {
 	ridge_top_color = "#66C16C";
 	ridge_bottom_color = "#219e36";
 	ridge_zoom = 0.001;
+}
+
+function FIELDS() {
+	FIELD();
 }
 
 function SHEEP() {
