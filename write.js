@@ -1,10 +1,11 @@
 const view_button = document.getElementById('poem_view')
 const poem_input = document.getElementById('poem_input')
+const input_group = document.getElementById('input_group')
 
 document.getElementById('write').classList.toggle('active')
 
 view_button.onclick = (ev) => {
-    poem_input.parentElement.classList.toggle('visually-hidden')
+    input_group.classList.toggle('visually-hidden')
 
     const sketch = get_sketch_from_comment(poem_input.value)
 

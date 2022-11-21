@@ -26,11 +26,15 @@
 <body>
   <script src="navbar.js"></script>
 
-  <div class="d-flex flex-column flex-sm-row" id="input_group">
-    <textarea id="poem_input" rows="10" class="w-100"></textarea>
-    <button type="button" class="btn btn-secondary" id="poem_view" disabled>
-      View
-    </button>
+  <div class="d-flex flex-column text-white" id="input_group">
+    Write only the comment, like so:
+    <br>/*A */FLOWER();/* from its cerulean wall,*/
+    <div class="d-flex flex-column flex-sm-row">
+      <textarea id="poem_input" rows="10" class="w-100"></textarea>
+      <button type="button" class="btn btn-secondary" id="poem_view" disabled>
+        View
+      </button>
+    </div>
   </div>
 
   <div class="visually-hidden" id="title"></div>
